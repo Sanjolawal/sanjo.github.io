@@ -486,6 +486,11 @@ main div{
 }
 main button{
     visibility: visible;
+    font-size: 3.8vw;
+}
+
+.last-btn{
+  width: 80%;
 }
 
              /* footer secton styling */  
