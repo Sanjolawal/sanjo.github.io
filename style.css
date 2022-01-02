@@ -422,8 +422,9 @@ header{
  article p{
      margin: 4vh 2vw 0 2vw;
  }
- .maiantain{
+ #maintain{
      visibility: hidden;
+     display: none;
  }
  .br{
      display: none;
