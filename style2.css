@@ -251,8 +251,9 @@ input{
     border-radius: 5px;
 }
 .button{
-    width: 87vw;
+    width: 88vw;
     font-size: 5.8vw;
+    padding: 0.7vh 0vw 0.7vh 0vw;
 }
 
 .pop-out{
