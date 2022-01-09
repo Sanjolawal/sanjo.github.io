@@ -4,7 +4,7 @@ let btn = document.querySelector('.btn-2')
 
 window.setTimeout(function (){
  Lead.style.display = 'grid'
-}, 3500)
+}, 2000)
 
 btn.addEventListener('click', Close)
 

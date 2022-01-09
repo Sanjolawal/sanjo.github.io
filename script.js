@@ -17,7 +17,7 @@ console.log(Lead)
 
 window.setTimeout(function (){
  Lead.style.display = 'grid'
-}, 3500)
+}, 2000)
 
 
 let btn = document.querySelector('.btn-2')
