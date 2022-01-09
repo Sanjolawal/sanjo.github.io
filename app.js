@@ -1,3 +1,17 @@
+let Lead = document.querySelector('.pop-outmain')
+console.log(Lead)
+let btn = document.querySelector('.btn-2')
+
+window.setTimeout(function (){
+ Lead.style.display = 'grid'
+}, 3500)
+
+btn.addEventListener('click', Close)
+
+function Close(){
+  Lead.style.display = 'none'
+}
+
 const paymentForm = document.getElementById('paymentForm');
     paymentForm.addEventListener("submit",function payWithPaystack(e) {
       e.preventDefault()
@@ -24,3 +38,5 @@ const paymentForm = document.getElementById('paymentForm');
         });
         handler.openIframe();
     }
+
+    

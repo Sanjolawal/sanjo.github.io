@@ -12,4 +12,18 @@ window.addEventListener('scroll', Scroll)
 }
 }
 
+let Lead = document.querySelector('.pop-outmain')
+console.log(Lead)
 
+window.setTimeout(function (){
+ Lead.style.display = 'grid'
+}, 3500)
+
+
+let btn = document.querySelector('.btn-2')
+
+btn.addEventListener('click', Close)
+
+function Close(){
+  Lead.style.display = 'none'
+}

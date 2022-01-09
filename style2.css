@@ -108,6 +108,82 @@ h4{
     background: rgb(113, 190, 113);
 }
 
+.pop-outmain{
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    min-height: 40vh;
+    /* background: rgb(255, 255, 255);*/
+    display: none;
+    z-index: 0; 
+}
+
+.pop-out{
+    background: rgb(255, 255, 255);
+    max-width: 40vw;
+    min-height: 54vh;
+    border-radius: 10px;
+    border: none;
+    justify-self: center;
+    display: grid;
+    box-shadow: 0 0 20px -7px;
+    z-index: 100;
+    /* left: 20vw;
+    right: 20vw;  */
+}
+ .pop-logo1{
+   min-height: 10vh;
+} 
+.copy{
+    text-align: center;
+    font-size: 3.5vh;
+    font-weight: bold;
+    line-height: 4.6vh;
+    font-family:'Noto Serif', serif ;
+    padding: 0 1vw 0 3vw;
+}
+.cta1{
+    color: rgb(53, 204, 98);
+}
+.cta{
+    color: red;
+}
+/* .btn-1{
+    justify-self: end;
+    margin: 0 5vw 0 0;
+}
+.btn-2{
+    justify-self: start;
+    margin: 0 0 0 5vw;    
+} */
+.btn-con{
+    display: grid;
+    grid-template-columns: 10vw 10vw;
+    column-gap: 10vw;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+.btn-1, .btn-2{
+    color: white;
+    background: rgb(27, 165, 27);
+    font-size: 2.4vh;
+    padding: 1vh 1vw 1vh 1vw;
+    border-radius: 24px;
+    border: none;
+}
+.btn-2{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    
+}
+.btn-1:hover, .btn-2:hover{
+    background: rgb(53, 204, 98);
+    color: white;
+    border: none;
+}
+
+
             /* Footer styling */
 
 footer{
@@ -178,6 +254,22 @@ input{
     width: 87vw;
     font-size: 5.8vw;
 }
+
+.pop-out{
+    max-width: 90vw;
+}
+
+.btn-con{
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    column-gap: 10vw;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+.btn-1,.btn-2{
+    border-radius: 30px;
+}
+
 footer ul{
     display: grid;
     grid-template-columns: 54vw 30vw;
