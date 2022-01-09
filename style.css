@@ -579,8 +579,8 @@ main button{
 
 .btn-con{
     display: grid;
-    grid-template-columns: 26vw 26vw;
-    column-gap: 10vw;
+    grid-template-columns: 32vw 32vw;
+    column-gap: 12vw;
     justify-content: center;
     margin-bottom: 1vh;
 }

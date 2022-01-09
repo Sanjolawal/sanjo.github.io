@@ -261,13 +261,19 @@ input{
 
 .btn-con{
     display: grid;
-    grid-template-columns: 30vw 30vw;
-    column-gap: 10vw;
+    grid-template-columns: 32vw 32vw;
+    column-gap: 12vw;
     justify-content: center;
     margin-bottom: 1vh;
 }
 .btn-1,.btn-2{
     border-radius: 30px;
+    font-size: 2.4vh;
+    padding: 0vh 1vw 0vh 1vw;
+    height: 5vh;
+}
+.copy{
+   font-size: 2.5vh;
 }
 
 footer ul{
