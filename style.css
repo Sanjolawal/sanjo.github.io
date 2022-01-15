@@ -58,6 +58,14 @@ text-align: center;
 margin: 0 3vw 0 3vw;
 margin-top: 2vh;
 }
+
+header section video{
+    width: 50vw;
+    margin: 2vh 0 0 5vw;
+    border-radius: 10px;
+    border: 5px solid rgb(29, 202, 81);
+}
+
 header section h2{
     text-align: center;
     margin-top: 4vh;
@@ -156,6 +164,19 @@ header article button{
     border-radius: 5px;
     text-align: center;
     padding: 1vh 2vw 1vh 2vw;
+}
+
+.T-header{
+    justify-self: start;
+    margin: 3vh 0 0 14VW;
+}
+.img-r{
+    display: grid;
+    justify-self: start;
+    margin: 0 0 4vh 5vw;
+    width: 50vw;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
 }
 
 #button{
@@ -288,15 +309,7 @@ details p{
   padding:0 2vw 0 4vw;
   line-height: 3.6vh;
 }
-.T-header{
-    justify-self: start;
-    margin: 3vh 0 0 14VW;
-}
-.img-r{
-    display: grid;
-    justify-self: start;
-    margin: 0 0 0 5vw;
-}
+
 .second-div{
     background:rgb(91, 41, 192) ;
     margin: 3vh 0 0 5vw;
@@ -472,6 +485,12 @@ header{
     padding: 1.5vh 8vw 1.5vh 8vw;
     font-size: 3.6vw;
  }
+ header section video{
+    width: 90vw;
+    margin: 2vh 0 0 3.5vw;
+    border-radius: 10px;
+    border: 5px solid rgb(29, 202, 81);
+}
  header section h3{
      font-size: 4vw;
  }
@@ -485,6 +504,9 @@ header{
  }
  header article {
      display: none;
+ }
+ .img-r{
+     width: 90vw;
  }
 
                /* Article section styling */
